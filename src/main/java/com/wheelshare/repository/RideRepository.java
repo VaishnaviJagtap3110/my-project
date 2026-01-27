@@ -1,5 +1,9 @@
 package com.wheelshare.repository;
 
-public class RideRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.wheelshare.entity.Ride;
+
+public interface RideRepository extends JpaRepository<Ride, Long>{
 
 }

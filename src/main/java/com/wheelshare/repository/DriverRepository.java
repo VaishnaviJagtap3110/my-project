@@ -1,5 +1,9 @@
 package com.wheelshare.repository;
 
-public class DriverRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.wheelshare.entity.Driver;
+
+public interface DriverRepository extends JpaRepository<Driver, Long>{
 
 }

@@ -1,5 +1,9 @@
 package com.wheelshare.repository;
 
-public class UserRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.wheelshare.entity.User;
+
+public interface UserRepository extends JpaRepository<User, Long>{
 
 }
